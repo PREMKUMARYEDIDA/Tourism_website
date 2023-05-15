@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "username": "premkumaryedida",
+      "email": "premkumaryedida@gmail.com",
+      "password": "1234",
+      "confirm": "1234",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "username": "premkumaryedida@gmail.com",
+      "email": "premkumaryedida@gmail.com",
+      "password": "23131",
+      "confirm": "fdgwe",
+      "id": 3
+    }
+  ]
+}

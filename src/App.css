@@ -1,38 +1,393 @@
-.App {
+
+.carousel-item img{
+  width: 100%;
+  height: 788px;
+}
+
+.papi1{background-image: url("./../public/images/papi.jpg");
+background-repeat: no-repeat;
+background-size: cover;      
+}
+
+.polavaram{background-image: url("./../public/images/polavaram.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.tem{background-image: url("./../public/images/churchst.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+h5{color: black;}
+
+.ghat1{background-image: url("./../public/images/ghat1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  
+.boat{background-image: url("./../public/images/pushakara.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+ .god{background-image: url("./../public/images/god.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+  .card-cover{
+    height: 400px;
+    width: 500px;
+    
+  }
+  .fw-bold{
+    font-size: large; }
+    .p2{
+      color: aliceblue;
+      font-size: large;
+    }
+   .d-flex{
+    font-size: large;
+   }
+
+   .col{
+    padding: 25px;
+   }
+   h1{
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+   }
+   .p1{text-align: center;
+    padding-top: 20px;}
+   
+.size{
+  width: 300px;
+  height: 300px;
+}
+
+.images h6{
+  font-size: large;
+  margin-top: 269px;
+  padding: 5px;
+  background-color:black;
+  text-align: center;
+  color:white;
+}
+.img{ 
+  margin : 10px;
+  width: 280px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+.img1 { background-image: url("/public/images/culture.jpeg");}
+.img2 { background-image: url("/public/images/temple1.jpg");}
+.img3 { background-image: url("/public/images/church.jpeg");}
+.img4 { background-image: url("/public/images/nature.jpg");}
+.img5 { background-image: url("/public/images/fest.jpg");}
+.img6 { background-image: url("/public/images/waterlake.jpg");}
+.img7 { background-image: url("/public/images/agri.jpg");}
+.img8 { background-image: url("/public/images/forest.jpeg");}
+.img9 { background-image: url("/public/images/village.jpg");}
+.img10 { background-image: url("/public/images/bird7.jpg");}
+.img11 { background-image: url("/public/images/ayur.jpg");}
+.img12 { background-image: url("/public/images/cloth.jpg");}
+.img13 { background-image: url("/public/images/ghat1.jpeg");}
+.img14 { background-image: url("/public/images/boating1.jpg");}
+ 
+body{background-image: url("/public/images/bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font{
+  font-size: larger;
+  padding: 10px;
+  justify-content: end;
+}
+
+img{
+  padding: 10px;
+  margin-top: 6px;
+  align-items: center;
+}
+
+.lead{
+  font-size: larger;
+  padding: 10px;
+  justify-content: end;
+  color: black;
+}
+button{
+  padding: 10px;
+  margin: 10px;
+}
+
+.card3{
+  width: 300px;
+  text-align: center;
+}
+.card3 img{
+  width: 275px;
+  height: 300px;
+}
+.plccard3{
+  display: flex;
+  padding: 50px;
+  margin: 30px;
+  gap: 40px;
+}
+i{
+  padding: 10px;
+  font-size: large;
+  
+}
+a{
+  margin-bottom: 20px;
+}
+
+header{
+   background-color: aliceblue;
+   display: flex;
+}
+
+.ww img{
+  width: 400px;
+  height: 400px;
+}
+/* places paragraph font weight. */
+.display-5{
+text-decoration: none;
+font-weight: 700;
+
+
+}
+/* places width&height */
+.warp-img{
+  width: 800px;
+height: 500px;
+}
+/* footer css */
+.container1{
+  height: 400px;
+  background-color: #a0b6bc;
+}
+i{
+  size: 100px;
+}
+
+/* contact css */
+.contact-form {
+  background-color: rgb(135, 175, 199) ;
+  padding: 40px;
+  border-radius: 10px;
+  width: 40%;
+  
+  
+}
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  font-weight: 100;
+  color: black;
+  
+  ;
+  margin-bottom: 30px;
+ 
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  /* width: 200px; */
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff6384;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #2b5382;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.contact{
+display: flex;
+justify-content: center;
+
+}
+
+/* footer css */
+.pad i{
+  padding: 15px;
+  size: 200px;
+}
+
+/* Register css */
+
+.card {
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin: 10px;
+}
+
+.card-header {
+  background-color: #333;
+  padding: 16px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-header .text-header {
+  margin: 0;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-body {
+  padding: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn1 {
+  padding: 12px 24px;
+  margin-left: 13px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer
+}
+
+.btn:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* login css */
+
+.form-container {
+  width: 400px;
+  background: linear-gradient(180deg, #333 25%,rgb(255, 255, 255) 20%);
+  height: 350px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  position: relative;
+}
+
+.form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.form-container p {
+ 
+  top: 10%;
+  left: 10%;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+.form-container label {
+  color: rgb(40, 42, 44);
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.form-container .input {
+  padding: 10px;
+  height: 35px;
+  border: none;
+  background-color: rgb(224, 231, 236);
+}
+
+.form-container .input:focus {
+  outline: none;
+}
+
+.form-container button {
+  border: none;
+  height: 35px;
+  margin-top: 30px;
+  background-color: #333;
   color: white;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* BOOKING CSS */
+  .nav{
+    font-size: larger;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
